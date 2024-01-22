@@ -5,6 +5,15 @@ import Sardines from "./Sardines";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 
+/** App - list the existing routes.
+ *
+ * State : None
+ *
+ * Props: None
+ *
+ * App -> VendingMachine, Soda, Chips, Sardines
+ */
+
 function App() {
   return (
     <div className="App">

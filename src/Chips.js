@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+/** Chips :
+ * - calculate the bags of chips eaten and display link to homepage
+ *
+ * State:
+ * - chipsEaten : integer (increases by 1 per click)
+ *
+ * Props: none
+ *
+ */
 function Chips(){
 
   const [chipsEaten, setChipsEaten] = useState(0);

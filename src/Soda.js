@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+/** Soda - display soda, message and link to return to home page.
+ *
+ * State: none.
+ *
+ * Props: none.
+ *
+ */
 function Soda(){
   return (
     <div>
