@@ -5,7 +5,7 @@ function Soda(){
   return (
     <div>
       <h1>OMG SUGAR!</h1>
-      <h1><Link to="/"></Link>Go Back</h1>
+      <h1><Link to="/">Go Back</Link></h1>
     </div>
   )
 }
